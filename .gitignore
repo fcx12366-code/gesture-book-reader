@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.test-data/
+test-results/
+playwright-report/
+*.pdf
+*.log
+.env*
+.DS_Store

@@ -1,0 +1,13 @@
+MediaPipe Hand Landmarker float16/1 model bundle
+Copyright Google LLC / The MediaPipe Authors.
+Unmodified model redistributed under the Apache License, Version 2.0.
+See mediapipe-LICENSE.txt for the complete license.
+
+Official source:
+https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task
+Official overview:
+https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker/index
+Official Model Card (License section: Apache License, Version 2.0):
+https://storage.googleapis.com/mediapipe-assets/Model%20Card%20Hand%20Tracking%20(Lite_Full)%20with%20Fairness%20Oct%202021.pdf
+SHA-256:
+fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1

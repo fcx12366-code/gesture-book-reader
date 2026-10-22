@@ -1,0 +1,16 @@
+.pdf-reader-viewport{position:absolute;inset:0;overflow:hidden;isolation:isolate;user-select:none;-webkit-user-select:none;touch-action:none}
+.pdf-reader-transform{position:absolute;left:50%;top:50%;transform-origin:center;will-change:transform;filter:drop-shadow(0 9px 16px #29221a1b)}
+.pdf-reader-book{width:100%!important;height:100%!important;min-width:0!important;min-height:0!important;max-width:none!important}
+.pdf-reader-book .stf__wrapper{width:100%;height:100%;padding-bottom:0!important}
+.pdf-reader-book .stf__block{width:100%;height:100%}
+.pdf-reader-page{overflow:hidden;background:#fff;contain:layout paint;box-shadow:inset 0 0 0 1px #e1ddd633}
+.pdf-reader-page-image{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center;pointer-events:none;background:#fff;opacity:0}
+.pdf-reader-ready>.pdf-reader-page-image{opacity:1}
+.pdf-reader-placeholder{position:absolute;inset:0;display:grid;place-content:center;color:#a19a8d;font:13px/1.5 system-ui,sans-serif;letter-spacing:.06em;background:#fff;pointer-events:none}
+.pdf-reader-ready>.pdf-reader-placeholder{display:none}
+.pdf-reader-page.--left{box-shadow:inset -14px 0 19px -23px #2b231c}
+.pdf-reader-page.--right{box-shadow:inset 14px 0 19px -23px #2b231c}
+.pdf-reader-zoomed{cursor:grab}
+.pdf-reader-dragging{cursor:grabbing}
+.pdf-reader-zoomed .stf__outerShadow,.pdf-reader-zoomed .stf__innerShadow{pointer-events:none}
+@media(prefers-reduced-motion:reduce){.pdf-reader-transform{will-change:auto}}
